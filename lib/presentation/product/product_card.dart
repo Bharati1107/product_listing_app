@@ -46,7 +46,7 @@ class ProductCard extends ConsumerWidget {
               Expanded(
                 flex: 3,
                 child: Container(
-                  height: 130,
+                  height: 100,
                   width: double.infinity,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
@@ -64,7 +64,7 @@ class ProductCard extends ConsumerWidget {
                   ),
                 ),
               ),
-              const SizedBox(height: 6),
+              const SizedBox(height: 2),
 
               // Product Details
               Expanded(
@@ -83,7 +83,7 @@ class ProductCard extends ConsumerWidget {
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                     ),
-                    const SizedBox(height: 4),
+                    const SizedBox(height: 2),
 
                     // Brand and Category
                     Text(
@@ -95,7 +95,7 @@ class ProductCard extends ConsumerWidget {
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                     ),
-                    const SizedBox(height: 4),
+                    const SizedBox(height: 2),
 
                     // Price
                     Row(
